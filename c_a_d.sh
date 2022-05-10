@@ -1,5 +1,8 @@
 #! /usr/bin/bash
 
+# Clock arms degree calculator
+# This script calculates the degrees between the two clock arms given a time
+
 if (($# < 2))
 then
   echo "Hour and Minute parameters must be added."
