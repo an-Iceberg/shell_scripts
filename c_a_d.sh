@@ -33,7 +33,6 @@ else
   isInputGood=false;
 fi
 
-# Determines what action to take based on the given inputs
 case $isInputGood
 in
   # Input is correct
