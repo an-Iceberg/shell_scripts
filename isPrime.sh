@@ -1,6 +1,6 @@
 #! /usr/bin/bash
 
-# This script factorizes a given number
+# This script determines if a given number is prime or not
 
 regexForNumber='^[0-9]+$';
 askUserForNumber=false;
