@@ -56,8 +56,6 @@ else
   askUserForNumber=true;
 fi
 
-#echo "askUserForNumber: $askUserForNumber";
-
 # Using case because if won't comply for some reason
 case $askUserForNumber
 in
@@ -78,7 +76,6 @@ in
   ;;
 esac
 
-# Factorizing part
 isPrime $number
 isNumberPrime=$?;
 
